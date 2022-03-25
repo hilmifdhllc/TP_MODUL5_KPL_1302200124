@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +13,7 @@ namespace tpmodul5_1302200124
         {
             SayaTubeVideo video = new SayaTubeVideo("Tutorial Design By Contract – [HILMI FADHILLAH CAHYADI]");
             video.PrintVideoDetails();
-            video.IncreasePlayCount(1);
+            video.IncreasePlayCount(10);
             video.PrintVideoDetails();
         }
     }
@@ -24,7 +25,8 @@ namespace tpmodul5_1302200124
 
         public SayaTubeVideo(string judul)
         {
-           
+            Contract.Requires(title != null);
+            Contract.Requires(title.Length < 100);
             Random ids = new Random();
             this.title = judul;
             id = ids.Next(0, 100000);
@@ -33,7 +35,16 @@ namespace tpmodul5_1302200124
         public void IncreasePlayCount(int i)
         {
             
-            playCount = playCount + i;
+             try
+            {
+                if (i >= 10000000) throw new Exception("Angka Melewati Limit");
+                playCount = playCount + i;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            
 
 
         }
