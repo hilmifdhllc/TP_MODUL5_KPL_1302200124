@@ -1,0 +1,8 @@
+C:\Users\Hilmi Fadhillah C\source\repos\tpmodul5_1302200124\tpmodul5_1302200124\bin\Debug\tpmodul5_1302200124.exe.config
+C:\Users\Hilmi Fadhillah C\source\repos\tpmodul5_1302200124\tpmodul5_1302200124\bin\Debug\tpmodul5_1302200124.exe
+C:\Users\Hilmi Fadhillah C\source\repos\tpmodul5_1302200124\tpmodul5_1302200124\bin\Debug\tpmodul5_1302200124.pdb
+C:\Users\Hilmi Fadhillah C\source\repos\tpmodul5_1302200124\tpmodul5_1302200124\obj\Debug\tpmodul5_1302200124.csproj.AssemblyReference.cache
+C:\Users\Hilmi Fadhillah C\source\repos\tpmodul5_1302200124\tpmodul5_1302200124\obj\Debug\tpmodul5_1302200124.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hilmi Fadhillah C\source\repos\tpmodul5_1302200124\tpmodul5_1302200124\obj\Debug\tpmodul5_1302200124.csproj.CoreCompileInputs.cache
+C:\Users\Hilmi Fadhillah C\source\repos\tpmodul5_1302200124\tpmodul5_1302200124\obj\Debug\tpmodul5_1302200124.exe
+C:\Users\Hilmi Fadhillah C\source\repos\tpmodul5_1302200124\tpmodul5_1302200124\obj\Debug\tpmodul5_1302200124.pdb
